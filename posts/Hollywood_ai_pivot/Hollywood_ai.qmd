@@ -1,0 +1,118 @@
+---
+title: "Hollywood AI Pivot (2023-2025): Rhetoric vs. Reality"
+subtitle: "PYTHON | SQL| NLP | FinBert | TABLEAU | LLM"
+description: "A significant surge in AI optimism in late 2025 has yet to be matched by material 8-K strategic events."
+date: "2026-02-02"
+image: "head_ai_pivot_gap.png" 
+
+format:
+  html:
+    toc: false
+    code-fold: true
+    theme: cosmo
+    self-contained: true
+---
+
+## Executive Summary
+
+This report analyzes the AI transition strategies of major media conglomerates—**Disney, Netflix, Paramount, and Warner Bros. Discovery (WBD)**—between 2023 and 2025. By mannually collecting and synthesizing regulatory filings (SEC 10-K/Q, 8-K) and earnings call transcripts, this project quantifies the gap between corporate vision and material execution.
+
+**Key Findings:**
+- **The Execution Gap**: A significant surge in AI optimism in late 2025 (Soft Signals) has yet to be matched by material 8-K strategic events (Hard Actions).
+- **Strategic Bifurcation**: Netflix leads in "Expansion" activities, while legacy studios remain focused on "Risk Mitigation" and "Alignment" following the 2023 labor strikes.
+
+---
+
+## Interactive Strategic Dashboard
+
+The following dashboard visualizes the industry’s "Pivot Point." It correlates executive sentiment with major external shocks, such as the SAG-AFTRA strikes and the release of OpenAI's Sora2, and the recent Netflix's attemp to acquisite Warner Bros Discovery.
+
+```{=html}
+
+<div class='tableauPlaceholder' id='viz1770076324948' style='position: relative'><noscript><a href='#'><img alt='The Hollywood AI Pivot: Rhetoric vs. Reality (2023-2025) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1770076324948');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>>
+
+```
+
+### Analyst Commentary:
+1. **The Sora Effect**: The 2024 launch of Sora acted as a catalyst for executive sentiment, but 8-K filings show a 6-9 month lag before these intentions manifest as formal strategic shifts.
+2. **Defensive vs. Offensive Stance**: In 2023, AI activity was mostly defensive (Legacy/Risk). By late 2025, the industry reached a "Strategic Alignment" phase, though a total production pivot is still in the nascent stages.
+
+---
+
+## Qualitative Evidence: Voices from the C-Suite
+
+Data alone doesn't tell the whole story. These selected quotes from earnings transcripts provide the context behind the data spikes observed above.
+
+> *"It's pretty clear that AI developments represent some pretty interesting opportunities for us. And some substantial benefits..But it's also clear that AI is going to be highly disruptive. .."* > — **Disney Leadership, 2023Q2** (During SAG-AFTRA and WGA strikes).
+
+> *"We think that generative AI has tremendous potential to improve our recommendations and discovery systems even further..But I think it's also worth noting that the key to our success stacks, right, it's quality at all levels. "* > - **Netflix Leadership, 2024Q2**
+
+
+> *"..Using AI powered tools, they were able to achieve an amazing result with remarkable speed and in fact, that VFX sequence was completed 10x faster than it could have been completed with visual -- traditional VFX tools and workflows.."* > — **Netflix Leadership, 2025Q2**
+
+---
+
+## Technical Methodology
+
+This project demonstrates a full-stack data analysis pipeline, turning unstructured regulatory text into actionable business intelligence.
+
+1. **Data Engineering**: Automated extraction of HTML/Text from SEC EDGAR and processing of non-structured earnings transcripts using Python.
+2. **NLP & Sentiment Analysis**: 
+- Stance: Applied a combination of Rule-based logic and Word Embeddings to determine executive positioning.
+
+- Sentiment Engine: Leveraged FinBERT to calculate tone confidence (sentiment), ensuring the model understood financial nuances.
+
+- Strategic Classification: Utilized NotebookLM (LLM-based classification) to categorize 8-K filings into specific strategic pillars such as Adoption, Risk, or Alignment.
+3. **Data Integration via SQL**: Performed SQL joins across disparate datasets—sentiment scores, 8-K event counts, and external milestone dates—to create a unified, synchronized time-series dataset for cross-domain analysis.
+4. **Visualization**: Built a dual-axis dashboard in Tableau to measure the "Narrative vs. Reality" divergence.
+
+---
+
+## Data Pipeline Architecture (ETL)
+
+Below is a closer look at the data processing and ETL logic:
+```{mermaid}
+graph TD
+    classDef raw fill:#f9f9f9,stroke:#666,stroke-width:1px,stroke-dasharray: 5 5;
+    classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
+    classDef data fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
+    classDef final fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px;
+
+    subgraph Data_Collection_Sources [Data Source Layer]
+        A1[10-K / 10-Q Filings]:::raw
+        A2[Earnings Transcripts]:::raw
+        A3[8-K Filings]:::raw
+    end
+
+    subgraph Data_Processing_ETL [Python ETL Layer]
+        B1["01_SEC_Financial_Analysis.ipynb"]:::process
+        B2["02_Transcript_Cleaning.ipynb"]:::process
+        B3["01b_8K_Event_Driven.csv"]:::process
+    end
+
+    subgraph Staging_Area [Staging CSVs]
+        C1[10k_sentiment.csv]:::data
+        C2[transcript_sentiment.csv]:::data
+        C3[8k_ai_related_events.csv]:::data
+    end
+
+    subgraph Analytics_Integration [Analytics Layer]
+        D["Final Strategic Report / Tableau"]:::final
+    end
+
+    A1 --> B1
+    A2 --> B2
+    A3 --> B3
+    B1 --> C1
+    B2 --> C2
+    B3 --> C3
+    C1 --> D
+    C2 --> D
+    C3 --> D
+```
+
+## Technical Deep Dive (Code Attachments)
+
+For more details, please refer to the technical notebooks below:
+
+ - [The Hollywood AI Pivot (2023-2025): Rhetoric vs. Reality](https://github.com/XinranStat/Hollywood_AI_Pivot_Research)

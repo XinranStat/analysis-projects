@@ -1,0 +1,10 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  type: default          # 👈 关键参数：Default 就是这种博客列表模式
+  sort: "date desc"
+  categories: false      # 截图里好像没有显示分类标签，所以我关掉了
+  filter-ui: false       # 关掉搜索框（如果你想要极简）
+  sort-ui: false         # 关掉排序按钮
+---

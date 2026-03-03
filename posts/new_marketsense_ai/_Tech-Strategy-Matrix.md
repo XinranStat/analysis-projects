@@ -1,0 +1,7 @@
+| Keyword | Trend | Tech Reality | Biz Impact |
+|:--------|:--------------------------|:---------------------------------------------------|:---------------------------------------------------|
+| Agents | Autonomous systems deployment accelerates. | AI-powered agents are moving from concept to real-world application, facing user interaction challenges. | Disrupts traditional labor, creates new service models, requires public acceptance strategies. |
+| Inference | AI application expands rapidly. | AI models are being deployed across diverse sectors, driving new product and process capabilities. | Transforms industries, creates new markets, demands rapid integration strategies. |
+| GPU | Chip competition intensifies. | Demand for specialized AI hardware drives innovation and competition in chip design and manufacturing. | Supply chain pressures, strategic national interests, shifts in hardware market dominance. |
+| ROI | AI investment scrutiny rises. | High investment in AI does not guarantee immediate or clear financial returns; value realization is complex. | Increased pressure for demonstrable value, risk of market corrections, re-evaluation of AI strategies. |
+| Regulation | Regulatory oversight expands. | Emerging technologies and market practices face increasing legal and governmental scrutiny. | Compliance costs rise, market entry barriers shift, operational freedom constrained. |

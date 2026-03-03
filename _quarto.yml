@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Bio"
+  navbar:
+    left:
+
+      - href: projects.qmd
+        text: Projects
+      - href: education.qmd
+        text: Education
+
+format:
+  html:
+    theme: 
+      - litera       # 👈 这个主题最接近你截图的字体和干净程度
+    css: styles.css  # (可选) 稍后我们可以建这个文件来微调背景色
+    toc: false       # 截图里没有右侧目录，建议关掉
+
+
+

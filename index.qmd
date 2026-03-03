@@ -1,0 +1,59 @@
+---
+title: "Xinran (Lena) Lu"
+subtitle: "<span style='color: #666666'><i class='bi bi-geo-alt'></i> San Francisco Bay Area"
+image: profile1.jpeg
+page-layout: full
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em      # 👈 改动1：缩小图片 (13em 大概是 1/3 视觉占比)
+  id: hero-heading
+  links:
+        # 设为 # 表示不可点击，纯展示
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/xin-ran-lu
+    - icon: github
+      text: Github
+      href: https://github.com/XinranStat
+  
+listing:
+  contents: posts
+  type: grid
+  sort: "date desc"
+  grid-columns: 3
+  image-height: 250px
+  fields: [image, subtitle, title, description]
+  id: sample-listings
+
+---
+
+:::{#hero-heading}
+
+<div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+
+## Data & Financial Analyst
+
+I bridge the gap between **complex financial data** and **strategic decision-making**. 
+
+Currently based in San Jose, CA, seeking Data Analyst and Financial Analyst roles in the Bay Area (US Permanent Resident). 
+
+My expertise includes:
+
+- **Data Stack**: Python (Pandas, NLP, Scikit-learn), SQL, Tableau, Excel
+- **Domain**: Credit Risk Assessment, Financial Modeling, Market Trend Research, Quantitative Analysis
+- **Education**: 
+M.S. in Economics & Computer Science @ Drexel University | M.S. in Finance @ University of Maryland
+
+<!-- [Download Resume >](resume.pdf){.btn .btn-outline-primary .btn-lg role="button"} -->
+
+</div>
+
+:::
+
+<br><br>
+
+## Selected Projects
+
+:::{#sample-listings}
+:::

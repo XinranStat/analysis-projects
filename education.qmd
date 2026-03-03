@@ -1,0 +1,19 @@
+---
+title: "Education"
+---
+
+### Master of Science in Economics and Computer Science
+**Drexel University** | *2024*
+
+- **CS & Data Science**: Data Analytics,  Machine Learning, Natural Language Processing (NLP), Advanced Programming in Python, Statistical Computing.
+
+- **Advanced Business Courses**: Corporate Finance, ESG, Econometrics, Asset Pricing, Microeconomic Theory, Macroeconomic Analysis.
+
+- **Honors/Awards**: Drexel Dragon Fellowship (Competitive doctoral award).
+
+### Master of Science in Finance
+**University of Maryland, College Park** | *2018*
+
+- **Relevant Coursework**: Financial Modeling, Investment Analysis, Portfolio Management, Quantitative Finance, Corporate Finance, Financial Econometrics.
+
+- **Specialization**: Asset Management Track.

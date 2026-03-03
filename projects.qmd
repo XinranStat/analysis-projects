@@ -1,0 +1,21 @@
+---
+title: "Selected Projects"
+listing:
+  contents: posts
+  type: grid
+  
+  # 👇 核心修改：改为 3 列，和首页保持一致
+  grid-columns: 3        
+  
+  # 👇 微调：3列时卡片变窄，建议把图片高度设为 200px，比例更协调
+  image-height: 250px    
+  
+  # 👇 关键配置：保持和首页一样的“经济学人”排序
+  # 图片 -> 橘色技能(无横线) -> 标题 -> 简介
+  fields: [image, subtitle, title, description] 
+  
+  sort: "date desc"
+page-layout: full        # 👈 必须保留 full，否则 3 列会挤成一团
+---
+
+Here is a selection of projects...

@@ -16,6 +16,10 @@ body, h1, h2, h3, h4, p {
 }
 .card-img-top {
     border-radius: 0 !important;
+    object-fit: contain !important;       /* 👈 新增：显示整个图片，不裁剪 */
+    background-color: #f5f5f5 !important; /* 👈 新增：淡灰色背景，图片周围显示背景 */
+    width: 100% !important;               /* 👈 新增：确保宽度填满容器 */
+    height: 100% !important;              /* 👈 新增：确保高度填满容器 */
 }
 
 

@@ -4684,6 +4684,9 @@ Matching complete. Matched dataset saved as 'matched_bond_dataset_n1.csv'.</code
 <li>The lack of significant differences confirms that matching was successful, meaning the two groups are balanced.</li>
 <li>There is <strong>no strong evidence</strong> that green bonds have significantly different yields or financial characteristics compared to common bonds.</li>
 </ul>
+<div style="background-color: #e6f2ff; border-left: 5px solid #0066cc; padding: 15px; margin-top: 30px; margin-bottom: 30px; border-radius: 4px;">
+<p><strong>Want to dive deeper?</strong> If you want to explore the Python code, API data pipelines, and raw methodology behind this analysis, please check out the <a href="https://github.com/XinranStat/Green-Bond-Pricing-Analysis-KNN-Matching">full technical notebook on my GitHub</a>.</p>
+</div>
 
 
 </section>
@@ -4764,7 +4767,7 @@ Matching complete. Matched dataset saved as 'matched_bond_dataset_n1.csv'.</code
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/XinranStat\.github\.io\/analysis-projects\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

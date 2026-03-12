@@ -2,7 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/new_marketsense_ai/market_analysis_dashboard.html",
+      "/posts/News_Marketsense_LLM/market_analysis_dashboard.html",
+      "/posts/Hollywood's Sci-Fi Paradox/Hollywood's Sci-Fi Paradox.html",
       "/posts/Hollywood_ai_pivot/Hollywood_ai.html",
       "/posts/Greenbond_Premium_MLR_KNN_RF/Greenbond_Premium_MLR_KNN_RF.html"
     ]
@@ -10,7 +11,8 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/posts/new_marketsense_ai/market_analysis_dashboard.html",
+      "/posts/News_Marketsense_LLM/market_analysis_dashboard.html",
+      "/posts/Hollywood's Sci-Fi Paradox/Hollywood's Sci-Fi Paradox.html",
       "/posts/Hollywood_ai_pivot/Hollywood_ai.html",
       "/posts/Greenbond_Premium_MLR_KNN_RF/Greenbond_Premium_MLR_KNN_RF.html"
     ]
@@ -18,7 +20,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/new_marketsense_ai/market_analysis_dashboard.html",
+      "/posts/News_Marketsense_LLM/market_analysis_dashboard.html",
+      "/posts/Hollywood's Sci-Fi Paradox/Hollywood's Sci-Fi Paradox.html",
       "/posts/Hollywood_ai_pivot/Hollywood_ai.html",
       "/posts/Greenbond_Premium_MLR_KNN_RF/Greenbond_Premium_MLR_KNN_RF.html"
     ]

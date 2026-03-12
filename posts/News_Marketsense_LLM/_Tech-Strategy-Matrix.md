@@ -1,0 +1,7 @@
+| Keyword | Trend | Tech Reality | Biz Impact |
+|---|---|---|---|
+| Agents | Agent autonomy increasing. | AI agents develop social networks, engage in arms races, and interact physically. | New markets emerge, job roles shift, and public interaction challenges arise. |
+| Inference | AI inference adoption expands. | AI inference moves into manufacturing, consumer electronics, and device integration. | New product categories emerge, existing markets are disrupted, and productivity gains are anticipated. |
+| GPU | Compute demand intensifies. | AI development requires massive computational resources, driving demand for specialized chips and energy. | Chip market competition increases, infrastructure costs rise, and energy consumption becomes a strategic concern. |
+| ROI | AI ROI remains elusive. | Widespread, demonstrable productivity gains from AI are not yet consistently realized across industries. | Investor scrutiny increases, capital allocation shifts, and strategic decisions are re-evaluated. |
+| Regulation | Regulatory scrutiny intensifies. | AI's rapid evolution creates new ethical, legal, and societal challenges, prompting calls for oversight. | Compliance costs rise, innovation pace may be affected, and market strategies are influenced by policy. |

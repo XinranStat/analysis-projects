@@ -1,16 +1,9 @@
 ---
 title: "Hollywood AI Pivot (2023-2025): Rhetoric vs. Reality"
-subtitle: "PYTHON | SQL| NLP | FinBert | TABLEAU | LLM"
+subtitle: "PYTHON | SQL | NLP | FinBert | TABLEAU | LLM"
 description: "A significant surge in AI optimism in late 2025 has yet to be matched by material 8-K strategic events."
 date: "2026-02-02"
 image: "head_ai_pivot_gap.png" 
-
-format:
-  html:
-    toc: false
-    code-fold: true
-    theme: cosmo
-    self-contained: true
 ---
 
 ## Executive Summary
@@ -29,7 +22,7 @@ The following dashboard visualizes the industry’s "Pivot Point." It correlates
 
 ```{=html}
 
-<div class='tableauPlaceholder' id='viz1770076324948' style='position: relative'><noscript><a href='#'><img alt='The Hollywood AI Pivot: Rhetoric vs. Reality (2023-2025) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1770076324948');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>>
+<div class='tableauPlaceholder' id='viz1770076324948' style='position: relative'><noscript><a href='#'><img alt='The Hollywood AI Pivot: Rhetoric vs. Reality (2023-2025) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ho&#47;hollywood_ai_pivot&#47;HollywoodAIPivot2023-2025&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1770076324948');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 ```
 
@@ -49,6 +42,12 @@ Data alone doesn't tell the whole story. These selected quotes from earnings tra
 
 
 > *"..Using AI powered tools, they were able to achieve an amazing result with remarkable speed and in fact, that VFX sequence was completed 10x faster than it could have been completed with visual -- traditional VFX tools and workflows.."* > — **Netflix Leadership, 2025Q2**
+
+
+<div style="background-color: #e6f2ff; border-left: 5px solid #0066cc; padding: 15px; margin-top: 30px; margin-bottom: 30px; border-radius: 4px;">
+  <strong>Want to dive deeper?</strong> If you want to explore the Python code, API data pipelines, and raw methodology behind this analysis, please check out the <a href="https://github.com/XinranStat/Hollywood_AI_Pivot_Research">full technical notebook on my GitHub</a>.
+</div>
+
 
 ---
 
@@ -110,9 +109,3 @@ graph TD
     C2 --> D
     C3 --> D
 ```
-
-## Technical Deep Dive (Code Attachments)
-
-For more details, please refer to the technical notebooks below:
-
- - [The Hollywood AI Pivot (2023-2025): Rhetoric vs. Reality](https://github.com/XinranStat/Hollywood_AI_Pivot_Research)
